@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "698331459211",
+    "project_id": "neocarga-app",
+    "storage_bucket": "neocarga-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698331459211:android:92a38bb58c8d50b0c3ae8e",
+        "android_client_info": {
+          "package_name": "com.example.neocarga"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnoYcvOMPlGR9ErstqnEF9coTbW8U2_-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

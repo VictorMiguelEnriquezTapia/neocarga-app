@@ -16,10 +16,7 @@ class MenuPage extends StatelessWidget {
         flexibleSpace: Container(
           decoration: const BoxDecoration(
             gradient: LinearGradient(
-              colors: [
-                Color(0xFF1565C0),
-                Color(0xFF42A5F5),
-              ],
+              colors: [Color(0xFF732002), Color(0xFF732002)],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
             ),
@@ -50,7 +47,7 @@ class MenuPage extends StatelessWidget {
                     _buildMenuButton(
                       context,
                       icon: Icons.receipt_long,
-                      color: Colors.blueAccent,
+                      color: const Color(0xFFF25C05),
                       label: 'Registrar\nServicio',
                       onTap: () {
                         Navigator.push(
@@ -64,7 +61,7 @@ class MenuPage extends StatelessWidget {
                     _buildMenuButton(
                       context,
                       icon: Icons.contact_mail,
-                      color: Colors.green,
+                      color: const Color(0xFFF25C05),
                       label: 'Generar\nTarjeta',
                       onTap: () {
                         Navigator.push(
@@ -96,7 +93,7 @@ class MenuPage extends StatelessWidget {
                     ),
                   ),
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.redAccent,
+                    backgroundColor: const Color(0xFFFF5252),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12),
                     ),
@@ -119,11 +116,13 @@ class MenuPage extends StatelessWidget {
     );
   }
 
-  Widget _buildMenuButton(BuildContext context,
-      {required IconData icon,
-      required Color color,
-      required String label,
-      required VoidCallback onTap}) {
+  Widget _buildMenuButton(
+    BuildContext context, {
+    required IconData icon,
+    required Color color,
+    required String label,
+    required VoidCallback onTap,
+  }) {
     return InkWell(
       onTap: onTap,
       borderRadius: BorderRadius.circular(16),

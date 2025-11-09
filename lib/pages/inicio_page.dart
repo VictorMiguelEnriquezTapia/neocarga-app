@@ -181,7 +181,7 @@ class _InicioPageState extends State<InicioPage> {
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),
-                        backgroundColor: Colors.blueAccent,
+                        backgroundColor: const Color(0xFFF25C05),
                         elevation: 5,
                       ),
                     ),
